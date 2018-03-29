@@ -1,6 +1,6 @@
 ---
 title: Introduction to Programming for Public Policy
-       Week 1
+       Week 1: Git
 author: Eric Potash
 date: March 27, 2018
 ---
