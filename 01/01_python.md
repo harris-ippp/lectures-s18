@@ -52,9 +52,9 @@ message:  db        "Hello, World", 10
 ### Interpretter vs Compiler
 
 * There are two basic ways of translating high-level languages into low-level languages:
-    * Interpretter: Code is read and translated and executed line by line (e.g. shell, Python, R)
+    * Interpreter: Code is read and translated and executed line by line (e.g. shell, Python, R)
     * Compiler: Code is read all at once and translated before it is executed
-* Generally interpretted languages are easier to read and write but may be slower
+* Generally interpreted languages are easier to read and write but may be slower
 
 ### Interpretted "Hello, World"
 
@@ -197,9 +197,9 @@ Hello, World
 ### String indexing
 * Strings are composed of characters:
 
-| 0 | 1 | 2 | 3 | 4 |
-|---+---+---+---+---|
-| H | e | l | l | o |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10| 11|
+|---+---+---+---+---+---+---+---+---+---+---+---|
+| H | e | l | l | o | , |   | W | o | r | l | d |
 
 * You can access a single character through indexing:
 ```python
@@ -237,3 +237,66 @@ pi = 3.1415    # define the math constant pi
 r = 2          # circle's radius
 A = 2*pi*r**2  # area of a circle
 ```
+
+### Function
+
+:::incremental
+* A fundamental part of programming is functions
+* We've already seen two functions: `print` and `type`
+* Functions are *called* with parenteheses
+    * e.g. `print('Hello, World')` or `type(1)`
+* The things inside the parentheses are called *arguments*
+* The result of the function is called its *return value*
+:::
+
+### Type conversion functions
+
+A class of useful functions are the *type conversion functions*:
+```python
+>>> int(3.1415)
+>>> 3
+>>> float(2)
+2.0
+>>> str(5)
+'5'
+```
+
+### Type conversion error
+```python
+>>> int('Hello')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'Hello'
+```
+
+### Math module
+
+* Python has a math module that provides some basic math functions
+* *Modules* are files that contain collections of functions and other stuff
+
+### import math
+* To use the math module we have to *import* it:
+```python
+>>> import math
+>>> math
+<module 'math' (built-in)>
+```
+
+### Math functions
+* The `math.log` function returns the base-2 logarithm of its argument
+```python
+math.log(10)
+```
+
+* For the base-10 logarithm use the function `math.log10`
+* The `math` module also contains variables:
+```python
+>>> math.pi
+3.141592653589793
+```
+
+### Summary
+* Python is a high-level, interpreted programming language
+* We can assign (`=`) values to variables and perform basic operations on them (`+`, `-`, etc.)
+* We can also apply functions to them
+* Modules are collections of related functions and variables that we can use in our programs by *importing* them
