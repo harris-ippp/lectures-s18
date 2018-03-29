@@ -49,14 +49,14 @@ message:  db        "Hello, World", 10
     * Java
     * C, C++
 
-### Interpretter vs Compiler
+### Interpreter vs Compiler
 
 * There are two basic ways of translating high-level languages into low-level languages:
     * Interpreter: Code is read and translated and executed line by line (e.g. shell, Python, R)
     * Compiler: Code is read all at once and translated before it is executed
 * Generally interpreted languages are easier to read and write but may be slower
 
-### Interpretted "Hello, World"
+### Interpreted "Hello, World"
 
 * Shell:
 ```bash
@@ -70,7 +70,7 @@ print('Hello, World')
 
 * R:
 ```R
-print("Hello, World')
+print('Hello, World')
 ```
 
 ### Compiled "Hello, World"
@@ -243,7 +243,7 @@ A = 2*pi*r**2  # area of a circle
 :::incremental
 * A fundamental part of programming is functions
 * We've already seen two functions: `print` and `type`
-* Functions are *called* with parenteheses
+* Functions are *called* with parentheses
     * e.g. `print('Hello, World')` or `type(1)`
 * The things inside the parentheses are called *arguments*
 * The result of the function is called its *return value*
