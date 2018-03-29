@@ -143,7 +143,7 @@ $
 ```
 
 ### Types
-* So far we've seen three different values in python: `1`, `2`, and `"Hello, World"`
+* So far we've seen three different values in python: `1`, `2`, and `'Hello, World'`
 * These have different *types*:
     * 1 and 2 are *integers*
     * "Hello, World" is a *string*
