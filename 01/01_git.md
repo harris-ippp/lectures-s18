@@ -1,6 +1,6 @@
 ---
 title: Introduction to Programming for Public Policy
-       Week 1: Git
+       Week 1 (Git)
 author: Eric Potash
 date: March 27, 2018
 ---
@@ -33,6 +33,10 @@ date: March 27, 2018
     4. Return to 2.
 
 * Additionally can view history, revert to a previous version
+
+### Git log
+![Repository history (`git log`)](git-log.png){ height=75% }
+
 
 ### Git commands
 To execute these steps we use the `git` program and its commands:
