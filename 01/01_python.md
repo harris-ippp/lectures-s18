@@ -152,13 +152,13 @@ $
 * If you want to know the type of a value in python, you can ask the interpreter:
 ```python
 >>> type(1)
-<type 'int'>
+<class 'int'>
 >>> type('Hello, World')
-<type 'str'>
+<class 'str'>
 >>> type(3.1415)
-<type 'float'>
+<class 'float'>
 >>> type('3.1415')
-<type 'str'>
+<class 'str'>
 ```
 
 ### Variables
