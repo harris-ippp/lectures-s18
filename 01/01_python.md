@@ -295,6 +295,9 @@ math.log(10)
 3.141592653589793
 ```
 
+### Documentation
+![[Math module documentation](https://docs.python.org/3/library/math.html)](math-module.png){ height=90% }
+
 ### Summary
 * Python is a high-level, interpreted programming language
 * We can assign (`=`) values to variables and perform basic operations on them (`+`, `-`, etc.)
