@@ -302,7 +302,7 @@ plt.plot(xs, ys, 'ro')
 ## Regression
 * Recall that the regression of $y$ on $x$ estimates
 
-    $$\hat\beta = Cov(x,y) / Var(x) $$
+    $$\hat\beta = \frac{Cov(x,y)}{Var(x)} $$
 
 * So in code we can write
 ```python
