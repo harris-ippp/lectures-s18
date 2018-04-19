@@ -1,7 +1,7 @@
 ---
 title: Intro to Programming for Public Policy
        Week 4
-       Simulation
+       Simulation and Plotting
 author: Eric Potash 
 date: April 19, 2018
 ---
