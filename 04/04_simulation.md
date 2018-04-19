@@ -15,7 +15,7 @@ $$ P(X=0) = .5 $$
 $$ P(X=1) = .5 $$
 
 ## Random number generator
-A random number generator is a computer program that that samples from a probability distirbution.
+A random number generator is a computer program that samples from a probability distribution.
 
 ## NumPy library
 
@@ -163,7 +163,7 @@ Matplotlib will determine which format to use from the file extension (`png`, `p
 ## Jupyter
 Use the "magic" command %matplotlib inline to simply have your plots appear inline in a Jupyter notebook:
 
-![Matplotlib inline in Jypter](jupyter.png){ heigher=75%}
+![Matplotlib inline in Jypter](jupyter.png){ height=75%}
 
 ## Line plot
 With two arguments, you can specify the x and y coordinates:
@@ -177,7 +177,7 @@ plt.plot([0,10,20], [5, 20, -5])
 ## Formatting
 * You can remove the lines and only show points using a format parameter which is a string.
 * The default format string is `'b-'`, in which the `'b'` is the color blue and the `'-'` represents a line.
-* We can intsead plot red circles using the format string `'ro'`
+* We can instead plot red circles using the format string `'ro'`
 * See [`plot` documentation](https://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot) for more on formatting.
 
 ## Scatter plot
