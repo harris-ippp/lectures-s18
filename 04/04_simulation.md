@@ -316,7 +316,7 @@ We can repeat this over subsets of the data:
 
 ```python
 beta_hats = []
-for i in range(2,1000):
+for i in range(2,1001):
     cov = np.cov(xs[:i], ys[:i])
     beta_hat = cov[0][1] / cov[0][0]
     beta_hats.append(beta_hat)
