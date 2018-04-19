@@ -205,7 +205,7 @@ You can plot a histogram of a list of values:
 plt.hist([0,1,1,0,1,2,4])
 ```
 
-![Histogram](hist.png)
+![Histogram](hist.png){ height=50% }
 
 ## Probability distribution
 ```python
@@ -216,7 +216,7 @@ for i in range(100):
 plt.hist(xs)
 ```
 
-![Normal histogram](normal_hist.png){height=50%}
+![Normal histogram](normal_hist.png){ height=40% }
 
 ## More matplotlib
 Next week we'll see more options including axis labels, titles, etc.
@@ -316,8 +316,8 @@ We can repeat this over subsets of the data:
 
 ```python
 beta_hats = []
-for i in range(1,1001):
-    cov = np.cov(xs[:i+1], ys[:i+1])
+for i in range(2,1000):
+    cov = np.cov(xs[:i], ys[:i])
     beta_hat = cov[0][1] / cov[0][0]
     beta_hats.append(beta_hat)
 ```
